@@ -1,0 +1,8 @@
+{
+int a;
+scan(a);
+	do{
+		sprint("do");
+		a++;	
+	}while(a<5)
+}

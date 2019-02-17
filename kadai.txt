@@ -1,0 +1,11 @@
+makeすると、
+ocamlyacc parser.mly
+5 rules never reduced
+1 shift/reduce conflict.
+ocamllex lexer.mll
+87 states, 3803 transitions, table size 15734 bytes
+が出てしまう。
+
+1,3,4,5,6,7,9の個別の機能はサンプルプログラムで動作確認して動くことを確認しました。9は文として 変数++;でインクリメントできるようにした。2は文は定義したのですがサンプルプログラムがsyntax errorが出てしまうため、そもそも文の定義が間違っているのかocamlyaccのところででる構文解析が完璧ではないことが問題なのかわからない。8はやり方がわからずできなかった。
+
+ソースコードとともに動作確認したsimpleプログラムも一緒に載せてあります。

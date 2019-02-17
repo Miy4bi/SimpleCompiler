@@ -1,0 +1,7 @@
+{
+	int a;
+	scan(a);
+	a+=2;
+	iprint(a);
+	sprint("\n");
+}

@@ -1,0 +1,9 @@
+{
+	int a,b,r;
+	scan(a);
+	scan(b);
+	r = a % b;
+	sprint("Answer = ");
+	iprint(r);
+	sprint("\n");
+}
